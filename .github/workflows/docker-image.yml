@@ -17,4 +17,4 @@ jobs:
     - name: Build the Docker image
       run: ./dockerBuild.sh
     - name: Run the Docker image
-      run: ./dockerRun.sh
+      run: docker run -p 80:80 index 
