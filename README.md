@@ -1,5 +1,6 @@
 # Liatrio-Apprenticeship-Exercise
-Overview
+#### Overview
+
 Welcome! The goal of this interview is to get an idea of how well you will fit into our practice, and
 if the way that we work is the right fit for you.
 First, let’s be clear - a successful interview does NOT mean that you finish the exercise without
@@ -8,8 +9,8 @@ how you communicate, how and where you ask for help, and finally how you demonst
 you did.
 Some of the items of the interview are going to be purposely vague for 2 reasons:
 1. To see how well you can figure things out on your own
-2. How you search, find, and ask for help
-A perfect way to ask for help would be something like: “I am struggling with doing XXX. I found
+
+2. How you search, find, and ask for help A perfect way to ask for help would be something like: “I am struggling with doing XXX. I found
 this issue (YYY), and researched a bit about ZZZ. Can you point me in the right direction?”
 Whenever possible include error messages or screen shots to give context to what you are
 asking about.
