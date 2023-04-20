@@ -19,3 +19,18 @@ jobs:
    
     - name: Run the Docker image
       run: docker run --rm -d --init -p 80:80 jtsilva26/liatrio-apprenticeship-exercise:index
+      
+    - name: Run tests
+      uses: liatrio/github-actions/apprentice-action@master
+      
+    - name: Login for Dockerhub
+      uses: docker/login-action@v2
+      with:
+        username: ${{ secrets.DOCKER_USERNAME }}
+        password: ${{ secrets.DOCKER_PASSWORD }}
+        
+    - name: Build and push
+      uses: docker/build-push-action@v4
+      with:
+        push: true
+        tags: jtsilva26/liatrio-apprenticeship-exercise:index
