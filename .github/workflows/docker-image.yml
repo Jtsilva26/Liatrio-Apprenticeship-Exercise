@@ -15,7 +15,7 @@ jobs:
     steps:
     - uses: actions/checkout@v3
     - name: Build the Docker image
-      run: docker build . --file Dockerfile --tag jtsilva26/Liatrio-Apprenticeship-Exercise:index
+      run: docker build . --file Dockerfile --tag jtsilva26/liatrio-apprenticeship-exercise:index
    
     - name: Run the Docker image
-      run: docker run --rm -d --init -p 80:80 jtsilva26/Liatrio-Apprenticeship-Exercise:index
+      run: docker run --rm -d --init -p 80:80 jtsilva26/liatrio-apprenticeship-exercise:index
