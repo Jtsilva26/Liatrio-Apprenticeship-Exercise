@@ -1,1 +1,1 @@
-docker run -it -p 80:80 index
+docker run -rm -it -init -p 80:80 index
