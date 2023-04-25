@@ -11,7 +11,8 @@ const timestamp = Date.now();
 app.get("/", (req, res) => {
   res.json({
     message: 'My name is Jordan Silva',
-    timestamp: timestamp
+    timestamp: timestamp,
+    process: 4
   })
 });
 
